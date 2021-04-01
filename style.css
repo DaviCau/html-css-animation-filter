@@ -119,3 +119,11 @@
     border-radius: 30px;
     transition: all linear 1s;
 }
+
+/* Esercizio 9 */
+.ex-9-img:hover {
+    filter: invert(1) brightness(0.5);
+    border-radius: 30px;
+    transform: scale(1.5);
+    transition: all linear 1s;
+}
