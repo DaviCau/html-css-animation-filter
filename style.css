@@ -162,13 +162,13 @@
 
 /* Esercizio 12 */
 .ex-12-top-white {
-    animation-name: button-top;
+    animation-name: button-12-top;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes button-top {
+@keyframes button-12-top {
     from {
         position: absolute;
         top: -10px;
@@ -181,13 +181,13 @@
     }
 }
 .ex-12-bottom-white {
-    animation-name: button-bottom;
+    animation-name: button-12-bottom;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes button-bottom {
+@keyframes button-12-bottom {
     from {
         position: absolute;
         bottom: -10px;
@@ -197,5 +197,83 @@
         position: absolute;
         bottom: -10px;
         right: calc(90% - 60px);
+    }
+}
+
+/* Esercizio 13 */
+.ex-13-top-white {
+    animation-name: button-13-top;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes button-13-top {
+    from {
+        position: absolute;
+        top: -10px;
+        left: 10%;
+    }
+    25% {
+        position: absolute;
+        top: -10px;
+        left: calc(100% - 30px);
+    }
+    50% {
+        position: absolute;
+        top: calc(100% - 10px);
+        left: calc(100% - 30px);
+    }
+    75% {
+        position: absolute;
+        top: calc(100% - 10px);
+        left: -30px;
+    }
+    90% {
+        position: absolute;
+        top: -10px;
+        left: -30px;
+    }
+    to {
+        position: absolute;
+        top: -10px;
+        left: 10%;
+    }
+}
+.ex-13-bottom-white {
+    animation-name: button-13-bottom;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes button-13-bottom {
+    from {
+        position: absolute;
+        bottom: -10px;
+        right: 20%;
+    }
+    25% {
+        position: absolute;
+        bottom: -10px;
+        right: calc(100% - 30px);
+    }
+    50% {
+        position: absolute;
+        bottom: calc(100% - 10px);
+        right: calc(100% - 30px);
+    }
+    75% {
+        position: absolute;
+        bottom: calc(100% - 10px);
+        right: -30px;
+    }
+    90% {
+        position: absolute;
+        bottom: -10px;
+        right: -30px;
+    }
+    to {
+        position: absolute;
+        bottom: -10px;
+        right: 20%;
     }
 }
