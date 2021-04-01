@@ -91,3 +91,13 @@
     opacity: 0;
     transition: opacity linear 1s;
 }
+
+/* Esercizio 5 */
+.ex-5-square:hover {
+    transform: scale(2);
+    transition: transform linear 2s;
+}
+.ex-5-square:active {
+    transform: scale(0.5);
+    transition: transform linear 1s;
+}
