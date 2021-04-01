@@ -112,3 +112,10 @@
     filter: sepia(0.7) hue-rotate(90deg);
     transition: filter linear 1s;
 }
+
+/* Esercizio 8 */
+.ex-8-img:hover {
+    filter: saturate(2) opacity(0.7);
+    border-radius: 30px;
+    transition: all linear 1s;
+}
