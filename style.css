@@ -143,3 +143,19 @@
         transform: rotate(360deg);
     }
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation-name: loading-75;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes loading-75 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(270deg);
+    }
+}
