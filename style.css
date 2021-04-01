@@ -159,3 +159,43 @@
         transform: rotate(270deg);
     }
 }
+
+/* Esercizio 12 */
+.ex-12-top-white {
+    animation-name: button-top;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes button-top {
+    from {
+        position: absolute;
+        top: -10px;
+        left: 10%;
+    }
+    to {
+        position: absolute;
+        top: -10px;
+        left: calc(80% - 60px);
+    }
+}
+.ex-12-bottom-white {
+    animation-name: button-bottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes button-bottom {
+    from {
+        position: absolute;
+        bottom: -10px;
+        right: 20%;
+    }
+    to {
+        position: absolute;
+        bottom: -10px;
+        right: calc(90% - 60px);
+    }
+}
