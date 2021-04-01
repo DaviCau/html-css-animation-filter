@@ -106,3 +106,9 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/* Esercizio 7 */
+.ex-7-img:hover {
+    filter: sepia(0.7) hue-rotate(90deg);
+    transition: filter linear 1s;
+}
