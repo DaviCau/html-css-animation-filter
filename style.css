@@ -101,3 +101,8 @@
     transform: scale(0.5);
     transition: transform linear 1s;
 }
+
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
